@@ -1,0 +1,176 @@
+
+body {
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #f5f5f5;
+    line-height: 1.6;
+    font-family: moj_font;
+  
+}
+.dva{
+   color: yellow;
+   font-weight: lighter; 
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 150px;
+    animation: svetlo 1s ease-in-out infinite;
+}
+@keyframes svetlo{
+    0%{
+        color: gray;
+    }
+    90%{
+        color: gray;
+    }
+    100%{
+        color: white;
+    }}
+    ul li:nth-child(1){
+        animation: svetlo 1.4s linear infinite;
+        animation-delay: 0s;
+    }
+    ul li:nth-child(2){
+        animation: svetlo 1.4s linear infinite;
+        animation-delay: 0.2s;
+    }
+    ul li:nth-child(3){
+        animation: svetlo 1.4s linear infinite;
+        animation-delay: 0.6s;
+    }
+    ul li:nth-child(4){
+        animation: svetlo 1.4s linear infinite;
+        animation-delay: 0.8s;
+    }
+   
+
+@font-face{
+    font-family: moj_font;
+    src: url(../Projekat/fontovi/Anton-Regular.ttf);
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    color: #f5f5f5;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+
+#jedan {
+    background-image: url(../Projekat/img/slika6.jpeg);
+    background-size: cover;
+   margin: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 40px;
+    animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.djedan .ejedan {
+    padding: 20px;
+}
+
+.djedan h2,
+.ejedan h2 {
+    color: yellow;
+    margin-bottom: 15px;
+}
+
+.listae {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.kartica {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+
+.kartica:hover {
+    transform: scale(1.05);
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: gray;
+    color:white;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
